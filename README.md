@@ -40,6 +40,10 @@ npm run dev
 ```
 Puis ouvre http://localhost:3000/checkout dans le navigateur.
 
+## Test du Paiement
+1. Utiliser une carte test Stripe (ex : 4242 4242 4242 4242 avec une date future et un CVC aléatoire).
+2. Vérifier que la transaction est bien enregistrée dans le dashboard Stripe.
+
 ## Améliorations possibles
 1. Ajouter une page de confirmation après le paiement
 2. Ajouter des moyens de paiement alternatifs (PayPal, Google Pay, Apple Pay...)
