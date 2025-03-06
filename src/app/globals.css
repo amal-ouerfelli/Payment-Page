@@ -40,3 +40,41 @@ a {
     color-scheme: dark;
   }
 }
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #ffc107; /* Warning */
+  border-color: #ffc107;
+}
+
+.information{
+  font-size: 12px;
+  font-weight: 800;
+}
+.title{
+  font-weight: 800;
+  font-size: 25px;
+}
+.article{
+  font-size: 15px;
+  font-weight: 800;
+}
+.subtitle{
+  font-size: 15px;
+}
+.image{
+  position: relative;
+}
+.image .badge {
+  position: absolute;
+  top: -10px;
+  left: 30px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: gray;
+  color: white;
+}
+.total{
+  font-size: 20px;
+  font-weight: 800;
+}
+
