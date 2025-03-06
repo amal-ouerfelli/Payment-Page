@@ -19,7 +19,6 @@ Il permet aux utilisateurs d'entrer leurs coordonnées et leurs informations de 
 ### 1. Cloner le projet
 ```bash
 git clone https://github.com/amal-ouerfelli/Payment-Page.git
-cd paiment-stripe
 ```
 ### 2. Installer les dépendances
 ```bash
